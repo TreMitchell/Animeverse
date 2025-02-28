@@ -14,7 +14,6 @@ const App: React.FC = () => {
           <Link to="/">Home </Link>
           <Link to="/animes">All Animes</Link>
           <Link to="/animeList"> Favorites</Link>
-          <button>Logout</button>
         </nav>
         <Routes>
           <Route path="/" element={<HomePage />} />
